@@ -11,4 +11,7 @@ export default createGlobalStyle`
    #root{
        margin:0 auto;
    }
+   body {
+        background-color: rgb(41,49,51);
+   }
 `;

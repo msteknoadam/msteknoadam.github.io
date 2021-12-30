@@ -1,0 +1,122 @@
+{
+	"CTIS152": {
+		"assessments": [
+			{ "name": "Lecture Quiz 1", "received": 0, "outOf": 100, "weight": 5 },
+			{ "name": "Lecture Quiz 2", "received": 0, "outOf": 100, "weight": 5 },
+			{ "name": "Lab Quiz 1", "received": 0, "outOf": 100, "weight": 5 },
+			{ "name": "Lab Quiz 2", "received": 0, "outOf": 100, "weight": 5 },
+			{ "name": "Lab Quiz 3", "received": 0, "outOf": 100, "weight": 5 },
+			{ "name": "Lab Quiz 4", "received": 0, "outOf": 100, "weight": 5 },
+			{ "name": "Lab Exam", "received": 0, "outOf": 100, "weight": 20 },
+			{ "name": "Midterm", "received": 0, "outOf": 100, "weight": 20 },
+			{ "name": "Final", "received": 0, "outOf": 100, "weight": 25 },
+			{ "name": "Performance", "received": 0, "outOf": 5, "weight": 5 }
+		],
+		"catalog": {
+			"A": 90,
+			"A-": 85,
+			"B+": 80,
+			"B": 75,
+			"B-": 70,
+			"C+": 65,
+			"C": 55,
+			"C-": 50,
+			"D+": 45,
+			"D": 40,
+			"F": 0
+		}
+	},
+	"CTIS164": {
+		"assessments": [
+			{ "name": "Homework 1", "received": 0, "outOf": 100, "weight": 15 },
+			{ "name": "Homework 2", "received": 0, "outOf": 100, "weight": 15 },
+			{ "name": "Homework 3", "received": 0, "outOf": 100, "weight": 15 },
+			{ "name": "Midterm", "received": 0, "outOf": 100, "weight": 25 },
+			{ "name": "Final", "received": 0, "outOf": 100, "weight": 25 },
+			{ "name": "Performance", "received": 0, "outOf": 5, "weight": 5 }
+		],
+		"catalog": {
+			"A": 90,
+			"A-": 85,
+			"B+": 80,
+			"B": 75,
+			"B-": 70,
+			"C+": 65,
+			"C": 60,
+			"C-": 55,
+			"D+": 50,
+			"D": 45,
+			"F": 0
+		}
+	},
+	"CTIS166": {
+		"assessments": [
+			{ "name": "Lab Quiz 1", "received": 0, "outOf": 100, "weight": 9 },
+			{ "name": "Lab Quiz 2", "received": 0, "outOf": 100, "weight": 9 },
+			{ "name": "Linux Installation Homework", "received": 0, "outOf": 3, "weight": 3 },
+			{ "name": "Lab Works", "received": 0, "outOf": 10, "weight": 10 },
+			{ "name": "Lab Exam", "received": 0, "outOf": 100, "weight": 15 },
+			{ "name": "Midterm", "received": 0, "outOf": 100, "weight": 20 },
+			{ "name": "Final", "received": 0, "outOf": 100, "weight": 30 },
+			{ "name": "Class Participation", "received": 0, "outOf": 4, "weight": 4 }
+		],
+		"catalog": {
+			"A": 90,
+			"A-": 85,
+			"B+": 79,
+			"B": 74,
+			"B-": 70,
+			"C+": 64,
+			"C": 59,
+			"C-": 54,
+			"D+": 47,
+			"D": 40,
+			"F": 0
+		}
+	},
+	"ENG102": {
+		"assessments": [
+			{ "name": "Library Skills Task", "received": 0, "outOf": 5, "weight": 5 },
+			{ "name": "Academic Essay", "received": 0, "outOf": 22, "weight": 20 },
+			{ "name": "Oral Presentation", "received": 0, "outOf": 22, "weight": 20 },
+			{ "name": "Research Paper Outline", "received": 0, "outOf": 15, "weight": 10 },
+			{ "name": "Resarch Paper", "received": 0, "outOf": 23, "weight": 30 },
+			{ "name": "End of Course Interview", "received": 0, "outOf": 23, "weight": 15 }
+		],
+		"catalog": {
+			"A": 95,
+			"A-": 90,
+			"B+": 86,
+			"B": 82,
+			"B-": 78,
+			"C+": 74,
+			"C": 70,
+			"C-": 67,
+			"D+": 63,
+			"D": 59,
+			"F": 0
+		}
+	},
+	"TURK102": {
+		"assessments": [
+			{ "name": "Assignment 1", "received": 0, "outOf": 17.5, "weight": 17.5 },
+			{ "name": "Assignment 2", "received": 0, "outOf": 17.5, "weight": 17.5 },
+			{ "name": "Assignment 3", "received": 0, "outOf": 17.5, "weight": 17.5 },
+			{ "name": "Assignment 4", "received": 0, "outOf": 17.5, "weight": 17.5 },
+			{ "name": "Final", "received": 0, "outOf": 30, "weight": 30 }
+		],
+		"catalog": {
+			"A": 95,
+			"A-": 90,
+			"B+": 86,
+			"B": 82,
+			"B-": 78,
+			"C+": 74,
+			"C": 70,
+			"C-": 63,
+			"D+": 57,
+			"D": 51,
+			"F": 0
+		}
+	}
+}
