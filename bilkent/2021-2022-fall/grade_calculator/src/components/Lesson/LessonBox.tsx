@@ -21,10 +21,10 @@ const LessonBox: React.FC<Props> = (props) => {
 		setLetterGrade(gradeToLetter(total, catalog));
 	}
 
-	const longestInputLenght = Object.values(assessments).reduce((prev, curr) => {
-		const currLen = (Math.round(curr.outOf * 100) / 100).toFixed(2).length * 8.5;
-		return Math.max(prev, currLen);
-	}, 0);
+	// const longestInputLenght = Object.values(assessments).reduce((prev, curr) => {
+	// 	const currLen = (Math.round(curr.outOf * 100) / 100).toFixed(2).length * 8.5;
+	// 	return Math.max(prev, currLen);
+	// }, 0);
 
 	return (
 		<Card variant="outlined" sx={{ width: "fit-content" }}>
