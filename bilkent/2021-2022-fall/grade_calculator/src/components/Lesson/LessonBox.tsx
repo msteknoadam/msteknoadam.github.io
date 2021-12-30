@@ -1,8 +1,11 @@
 import React, { useState } from "react";
-import styled from "styled-components";
 import { LessonDetails } from "../../types/types";
 import { gradeToLetter } from "../../util/util";
-import InputField from "../common/InputField";
+import TextField from "@mui/material/TextField";
+import Button from "@mui/material/Button";
+import Card from "@mui/material/Card";
+import CardContent from "@mui/material/CardContent";
+import Typography from "@mui/material/Typography";
 
 type Props = LessonDetails & { lessonName: string };
 
@@ -24,41 +27,41 @@ const LessonBox: React.FC<Props> = (props) => {
 	}, 0);
 
 	return (
-		<div>
-			<h2>{lessonName}</h2>
-			<br />
-			<table>
-				<thead>
-					<th>Assessment Name</th>
-					<th>Grade</th>
-				</thead>
-				<tbody>
-					{Object.values(assessments).map((assessment) => (
-						<tr key={assessment.name}>
-							<td>{assessment.name}</td>
-							<td>
-								<InputField
-									onChange={(e) => {
-										assessment.received = +e.target.value;
-									}}
-									width={`${longestInputLenght}px`}
-								/>{" "}
-								/ {assessment.outOf} ({assessment.weight}%)
-							</td>
-						</tr>
-					))}
-				</tbody>
-			</table>
-			<button onClick={() => calcTotal()}>Calculate Letter Grade</button>
-			<br />
-			{totalGrade !== null ? (
-				<>
-					Total Grade: {totalGrade}
-					<br />
-					Letter Grade: {letterGrade}
-				</>
-			) : null}
-		</div>
+		<Card variant="outlined" sx={{ width: "fit-content" }}>
+			<CardContent>
+				<Typography variant="h2">{`${
+					letterGrade === null ? lessonName : `${lessonName}: ${letterGrade}`
+				}`}</Typography>
+				{totalGrade !== null ? <Typography variant="h4">Total Grade: {totalGrade}</Typography> : null}
+				<br />
+				{Object.values(assessments).map((assessment) => (
+					<>
+						<TextField
+							variant="outlined"
+							size="small"
+							label={assessment.name}
+							onChange={(e) => {
+								assessment.received = +e.target.value;
+							}}
+							// width={`${longestInputLenght}px`}
+						/>{" "}
+						<Typography
+							variant="body1"
+							component="span"
+							sx={{ display: "display-inline", lineHeight: "40px" }}
+						>
+							/ {assessment.outOf} ({assessment.weight}%)
+						</Typography>
+						<br />
+						<br />
+					</>
+				))}
+				<Button variant="contained" onClick={() => calcTotal()}>
+					Calculate Letter Grade
+				</Button>
+				<br />
+			</CardContent>
+		</Card>
 	);
 };
 
