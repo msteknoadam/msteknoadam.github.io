@@ -41,7 +41,7 @@ const LessonBox: React.FC<Props> = (props) => {
 							size="small"
 							label={assessment.name}
 							onChange={(e) => {
-								assessment.received = +e.target.value;
+								assessment.received = +e.target.value.replace(",", ".");
 							}}
 							// width={`${longestInputLenght}px`}
 						/>{" "}
