@@ -32,7 +32,9 @@ const LessonBox: React.FC<Props> = (props) => {
 				<Typography variant="h2">{`${
 					letterGrade === null ? lessonName : `${lessonName}: ${letterGrade}`
 				}`}</Typography>
-				{totalGrade !== null ? <Typography variant="h4">Total Grade: {totalGrade}</Typography> : null}
+				{totalGrade !== null ? (
+					<Typography variant="h4">Total Grade: {totalGrade.toFixed(2)}</Typography>
+				) : null}
 				<br />
 				{Object.values(assessments).map((assessment) => (
 					<>
