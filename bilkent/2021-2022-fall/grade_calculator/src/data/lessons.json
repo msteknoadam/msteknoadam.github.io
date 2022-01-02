@@ -81,7 +81,7 @@
 			{ "name": "Oral Presentation", "received": 0, "outOf": 22, "weight": 20 },
 			{ "name": "Research Paper Outline", "received": 0, "outOf": 15, "weight": 10 },
 			{ "name": "Resarch Paper", "received": 0, "outOf": 23, "weight": 30 },
-			{ "name": "End of Course Interview", "received": 0, "outOf": 23, "weight": 15 }
+			{ "name": "End of Course Interview", "received": 0, "outOf": 60, "weight": 15 }
 		],
 		"catalog": {
 			"A": 95,
