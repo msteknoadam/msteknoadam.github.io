@@ -37,7 +37,7 @@ const LessonBox: React.FC<Props> = (props) => {
 				) : null}
 				<br />
 				{Object.values(assessments).map((assessment, i) => (
-					<div key={`${assessment.name}-${i}`}>
+					<React.Fragment key={`${assessment.name}-${i}`}>
 						<TextField
 							variant="outlined"
 							size="small"
@@ -56,7 +56,7 @@ const LessonBox: React.FC<Props> = (props) => {
 						</Typography>
 						<br />
 						<br />
-					</div>
+					</React.Fragment>
 				))}
 				<Button variant="contained" onClick={() => calcTotal()}>
 					Calculate Letter Grade
