@@ -28,7 +28,7 @@
 			{ "name": "Midterm 1", "received": 0, "outOf": 100, "weight": 25 },
 			{ "name": "Midterm 2", "received": 0, "outOf": 100, "weight": 25 },
 			{ "name": "Final", "received": 0, "outOf": 100, "weight": 35 },
-			{ "name": "Project", "received": 0, "outOf": 15, "weight": 15 }
+			{ "name": "Project", "received": 0, "outOf": 100, "weight": 15 }
 		],
 		"catalog": {
 			"A": 85,
@@ -70,8 +70,13 @@
 		"assessments": [
 			{ "name": "Homework 1", "received": 0, "outOf": 4, "weight": 4 },
 			{ "name": "Homework 2", "received": 0, "outOf": 4, "weight": 4 },
-			{ "name": "Online Quizzes", "received": 0, "outOf": 3, "weight": 3 },
-			{ "name": "Online Final", "received": 0, "outOf": 4, "weight": 4 },
+			{ "name": "Online Module Exam (1)", "received": 0, "outOf": 100, "weight": 0.5 },
+			{ "name": "Online Module Exam (2)", "received": 0, "outOf": 100, "weight": 0.5 },
+			{ "name": "Online Module Exam (3)", "received": 0, "outOf": 100, "weight": 0.5 },
+			{ "name": "Online Module Exam (4)", "received": 0, "outOf": 100, "weight": 0.5 },
+			{ "name": "Online Module Exam (5)", "received": 0, "outOf": 100, "weight": 0.5 },
+			{ "name": "Online Module Exam (6)", "received": 0, "outOf": 100, "weight": 0.5 },
+			{ "name": "Online Final", "received": 0, "outOf": 100, "weight": 4 },
 			{ "name": "Midterm 1", "received": 0, "outOf": 100, "weight": 25 },
 			{ "name": "Midterm 2", "received": 0, "outOf": 100, "weight": 25 },
 			{ "name": "Final", "received": 0, "outOf": 100, "weight": 30 },
