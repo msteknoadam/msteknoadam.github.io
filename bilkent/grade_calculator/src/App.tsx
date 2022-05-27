@@ -10,6 +10,7 @@ const App: React.FC = () => (
 		<LessonsWrapper>
 			{Object.entries(LessonsData).map(([lessonName, lessonDetails]) => (
 				<LessonBox
+					key={lessonName}
 					lessonName={lessonName}
 					assessments={lessonDetails.assessments}
 					catalog={lessonDetails.catalog}
