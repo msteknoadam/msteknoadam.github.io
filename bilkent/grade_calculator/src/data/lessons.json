@@ -1,4 +1,148 @@
 {
+	"CTIS222": {
+		"assessments": [
+			{ "name": "Quiz 1", "received": 0, "outOf": 100, "weight": 10 },
+			{ "name": "Quiz 2", "received": 0, "outOf": 100, "weight": 10 },
+			{ "name": "Quiz 3", "received": 0, "outOf": 100, "weight": 10 },
+			{ "name": "Midterm", "received": 0, "outOf": 100, "weight": 25 },
+			{ "name": "Final", "received": 0, "outOf": 100, "weight": 40 },
+			{ "name": "Participation", "received": 0, "outOf": 5, "weight": 5 }
+		],
+		"catalog": {
+			"A": 82,
+			"A-": 78,
+			"B+": 74,
+			"B": 70,
+			"B-": 66,
+			"C+": 62,
+			"C": 58,
+			"C-": 54,
+			"D+": 50,
+			"D": 44,
+			"F": 0
+		}
+	},
+	"CTIS256": {
+		"assessments": [
+			{ "name": "Midterm 1", "received": 0, "outOf": 100, "weight": 25 },
+			{ "name": "Midterm 2", "received": 0, "outOf": 100, "weight": 30 },
+			{ "name": "Final", "received": 0, "outOf": 100, "weight": 30 },
+			{ "name": "Project", "received": 0, "outOf": 100, "weight": 15 }
+		],
+		"catalog": {
+			"A": 85,
+			"A-": 80,
+			"B+": 75,
+			"B": 70,
+			"B-": 65,
+			"C+": 60,
+			"C": 55,
+			"C-": 50,
+			"D+": 45,
+			"D": 40,
+			"F": 0
+		}
+	},
+	"CTIS262": {
+		"assessments": [
+			{ "name": "Midterm", "received": 0, "outOf": 100, "weight": 25 },
+			{ "name": "Homework 1", "received": 0, "outOf": 100, "weight": 3 },
+			{ "name": "Homework 2", "received": 0, "outOf": 100, "weight": 3 },
+			{ "name": "Homework 3", "received": 0, "outOf": 100, "weight": 3 },
+			{ "name": "Packet Tracer Project", "received": 0, "outOf": 100, "weight": 6 },
+			{ "name": "Online Module Exam (1)", "received": 0, "outOf": 100, "weight": 1 },
+			{ "name": "Online Module Exam (2)", "received": 0, "outOf": 100, "weight": 1 },
+			{ "name": "Online Module Exam (3)", "received": 0, "outOf": 100, "weight": 1 },
+			{ "name": "Online Module Exam (4)", "received": 0, "outOf": 100, "weight": 1 },
+			{ "name": "Online Module Exam (5)", "received": 0, "outOf": 100, "weight": 1 },
+			{ "name": "Online Final", "received": 0, "outOf": 100, "weight": 5 },
+			{ "name": "Lab Exam", "received": 0, "outOf": 100, "weight": 15 },
+			{ "name": "Final", "received": 0, "outOf": 100, "weight": 30 },
+			{ "name": "Participation", "received": 0, "outOf": 5, "weight": 5 }
+		],
+		"catalog": {
+			"A": 84,
+			"A-": 80,
+			"B+": 76,
+			"B": 72,
+			"B-": 68,
+			"C+": 64,
+			"C": 60,
+			"C-": 56,
+			"D+": 52,
+			"D": 45,
+			"F": 0
+		}
+	},
+	"MATH101": {
+		"assessments": [
+			{ "name": "Midterm 1", "received": 0, "outOf": 4, "weight": 26.6 },
+			{ "name": "Midterm 2", "received": 0, "outOf": 4, "weight": 26.7 },
+			{ "name": "Quizzes", "received": 0, "outOf": 100, "weight": 26.7 },
+			{ "name": "Homework", "received": 0, "outOf": 100, "weight": 10 },
+			{ "name": "Final", "received": 0, "outOf": 100, "weight": 10 }
+		],
+		"catalog": {
+			"A": 80,
+			"A-": 75,
+			"B+": 70,
+			"B": 65,
+			"B-": 60,
+			"C+": 55,
+			"C": 50,
+			"C-": 45,
+			"D+": 40,
+			"D": 30,
+			"F": 0
+		}
+	},
+	"HCIV101": {
+		"assessments": [
+			{ "name": "Midterm 1", "received": 0, "outOf": 100, "weight": 20 },
+			{ "name": "Midterm 2", "received": 0, "outOf": 100, "weight": 20 },
+			{ "name": "Video Project", "received": 0, "outOf": 100, "weight": 20 },
+			{ "name": "Final", "received": 0, "outOf": 100, "weight": 30 },
+			{ "name": "Participation + Moodle Quizzes", "received": 0, "outOf": 10, "weight": 10 }
+		],
+		"catalog": {
+			"A": 96,
+			"A-": 91,
+			"B+": 86,
+			"B": 81,
+			"B-": 76,
+			"C+": 71,
+			"C": 66,
+			"C-": 61,
+			"D+": 56,
+			"D": 50,
+			"F": 0
+		}
+	},
+	"HIST200": {
+		"assessments": [
+			{ "name": "Proje Konu Önerisi", "received": 0, "outOf": 10, "weight": 10 },
+			{ "name": "Quiz", "received": 0, "outOf": 10, "weight": 10 },
+			{ "name": "Ön Çalışma Raporu", "received": 0, "outOf": 10, "weight": 10 },
+			{ "name": "Draft", "received": 0, "outOf": 100, "weight": 15 },
+			{ "name": "Final", "received": 0, "outOf": 100, "weight": 30 },
+			{ "name": "Sunum", "received": 0, "outOf": 5, "weight": 5 },
+			{ "name": "Derse Katılım", "received": 0, "outOf": 10, "weight": 10 },
+			{ "name": "Akran Değerlendirmesi", "received": 0, "outOf": 10, "weight": 10 }
+		],
+		"catalog": {
+			"A": 86,
+			"A-": 82,
+			"B+": 78,
+			"B": 74,
+			"B-": 70,
+			"C+": 66,
+			"C": 62,
+			"C-": 58,
+			"D+": 54,
+			"D": 47,
+			"F": 0
+		}
+	},
 	"CTIS221": {
 		"assessments": [
 			{ "name": "Lab Quiz 1", "received": 0, "outOf": 100, "weight": 5 },
