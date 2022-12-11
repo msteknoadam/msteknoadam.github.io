@@ -76,11 +76,11 @@
 	},
 	"MATH101": {
 		"assessments": [
-			{ "name": "Midterm 1", "received": 0, "outOf": 4, "weight": 26.6 },
-			{ "name": "Midterm 2", "received": 0, "outOf": 4, "weight": 26.7 },
-			{ "name": "Quizzes", "received": 0, "outOf": 100, "weight": 26.7 },
-			{ "name": "Homework", "received": 0, "outOf": 100, "weight": 10 },
-			{ "name": "Final", "received": 0, "outOf": 100, "weight": 10 }
+			{ "name": "Midterm 1", "received": 0, "outOf": 100, "weight": 26.6 },
+			{ "name": "Midterm 2", "received": 0, "outOf": 100, "weight": 26.7 },
+			{ "name": "Final", "received": 0, "outOf": 100, "weight": 26.7 },
+			{ "name": "Homework", "received": 0, "outOf": 10, "weight": 10 },
+			{ "name": "Quizzes", "received": 0, "outOf": 10, "weight": 10 }
 		],
 		"catalog": {
 			"A": 80,
