@@ -22,6 +22,31 @@
 			"F": 0
 		}
 	},
+	
+	"CTIS264": {
+		"assessments": [
+			{ "name": "Midterm 1", "received": 0, "outOf": 100, "weight": 20 },
+			{ "name": "Midterm 2", "received": 0, "outOf": 100, "weight": 20 },
+			{ "name": "Quiz 1", "received": 0, "outOf": 100, "weight": 10 },
+			{ "name": "Lab Exam", "received": 0, "outOf": 100, "weight": 25 },
+			{ "name": "Final", "received": 0, "outOf": 100, "weight": 25 },
+		],
+		"catalog": {
+			"A": 90,
+			"A-": 80,
+			"B+": 75,
+			"B": 70,
+			"B-": 65,
+			"C+": 60,
+			"C": 55,
+			"C-": 50,
+			"D+": 45,
+			"D": 40,
+			"F": 0
+		}
+			
+		
+	},
 	"CTIS256": {
 		"assessments": [
 			{ "name": "Midterm 1", "received": 0, "outOf": 100, "weight": 25 },
