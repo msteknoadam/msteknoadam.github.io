@@ -22,6 +22,49 @@
 			"F": 0
 		}
 	},
+	"CTIS359": {
+		"assessments": [
+			{ "name": "Quiz ", "received": 0, "outOf": 100, "weight": 20 },
+			{ "name": "Midterm", "received": 0, "outOf": 100, "weight": 35 },
+			{ "name": "Final", "received": 0, "outOf": 100, "weight": 40 },
+			{ "name": "Assignment", "received": 0, "outOf": 100, "weight": 5 }
+		],
+		"catalog": {
+			"A": 82,
+			"A-": 78,
+			"B+": 74,
+			"B": 70,
+			"B-": 66,
+			"C+": 62,
+			"C": 58,
+			"C-": 54,
+			"D+": 50,
+			"D": 44,
+			"F": 0
+		}
+	},
+	"CTIS487": {
+		"assessments": [
+			{ "name": "Midterm ", "received": 0, "outOf": 100, "weight": 33 },
+			{ "name": "Assignment 1", "received": 0, "outOf": 100, "weight": 6 },
+			{ "name": "Assignment 2", "received": 0, "outOf": 100, "weight": 6 },
+			{ "name": "Final", "received": 0, "outOf": 100, "weight": 40 },
+			{ "name": "Project", "received": 0, "outOf": 100, "weight": 15 }
+		],
+		"catalog": {
+			"A": 90,
+			"A-": 85,
+			"B+": 80,
+			"B": 75,
+			"B-": 70,
+			"C+": 65,
+			"C": 60,
+			"C-": 55,
+			"D+": 50,
+			"D": 40,
+			"F": 0
+		}
+	},
 	"CTIS256": {
 		"assessments": [
 			{ "name": "Midterm 1", "received": 0, "outOf": 100, "weight": 25 },
