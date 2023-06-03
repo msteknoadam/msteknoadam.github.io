@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "https://grades.goktug.dev/bilkent/grade_calculator/build/static/js/main.0ce8ebee.js",
+    "main.js": "https://grades.goktug.dev/bilkent/grade_calculator/build/static/js/main.b28efd85.js",
     "index.html": "https://grades.goktug.dev/bilkent/grade_calculator/build/index.html",
-    "main.0ce8ebee.js.map": "https://grades.goktug.dev/bilkent/grade_calculator/build/static/js/main.0ce8ebee.js.map"
+    "main.b28efd85.js.map": "https://grades.goktug.dev/bilkent/grade_calculator/build/static/js/main.b28efd85.js.map"
   },
   "entrypoints": [
-    "static/js/main.0ce8ebee.js"
+    "static/js/main.b28efd85.js"
   ]
 }
