@@ -71,7 +71,7 @@
 			{ "name": "Midterm 2", "received": 0, "outOf": 100, "weight": 20 },
 			{ "name": "Quiz 1", "received": 0, "outOf": 100, "weight": 10 },
 			{ "name": "Lab Exam", "received": 0, "outOf": 100, "weight": 25 },
-			{ "name": "Final", "received": 0, "outOf": 100, "weight": 20 }
+			{ "name": "Final", "received": 0, "outOf": 100, "weight": 25 }
 		],
 		"catalog": {
 			"A": 90,
