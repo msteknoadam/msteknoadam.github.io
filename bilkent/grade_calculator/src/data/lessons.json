@@ -1,4 +1,71 @@
 {
+	"ADA265": {
+		"assessments": [
+			{ "name": "In-class Participation", "received": 0, "outOf": 10, "weight": 10 },
+			{
+				"name": "Tasks: Assignments / Presentations / Activities / Debates",
+				"received": 0,
+				"outOf": 40,
+				"weight": 40
+			},
+			{ "name": "Midterm Exam (Take home)", "received": 0, "outOf": 20, "weight": 20 },
+			{ "name": "Final Exam", "received": 0, "outOf": 100, "weight": 30 }
+		]
+	},
+	"HCIV102": {
+		"assessments": [
+			{ "name": "Thematic Essay 1", "received": 0, "outOf": 10, "weight": 10 },
+			{ "name": "Thematic Essay 2", "received": 0, "outOf": 10, "weight": 10 },
+			{ "name": "Midterm", "received": 0, "outOf": 10, "weight": 10 },
+			{ "name": "Comparative Essay", "received": 0, "outOf": 10, "weight": 10 },
+			{ "name": "Presentation Project", "received": 0, "outOf": 20, "weight": 20 },
+			{ "name": "Final", "received": 0, "outOf": 30, "weight": 30 },
+			{ "name": "Participation + Moodle Quizzes", "received": 0, "outOf": 10, "weight": 10 }
+		],
+		"catalog": {
+			"A": 96,
+			"A-": 91,
+			"B+": 86,
+			"B": 81,
+			"B-": 76,
+			"C+": 71,
+			"C": 66,
+			"C-": 61,
+			"D+": 56,
+			"D": 50,
+			"F": 0
+		}
+	},
+	"COMD358": {
+		"assessments": [
+			{ "name": "Midterm", "received": 0, "outOf": 25, "weight": 25 },
+			{ "name": "Homework 1", "received": 0, "outOf": 5, "weight": 5 },
+			{ "name": "Homework 2", "received": 0, "outOf": 5, "weight": 5 },
+			{ "name": "Homework 3", "received": 0, "outOf": 5, "weight": 5 },
+			{ "name": "Homework 4", "received": 0, "outOf": 5, "weight": 5 },
+			{ "name": "Homework 5", "received": 0, "outOf": 5, "weight": 5 },
+			{ "name": "In-class Assignment 1", "received": 0, "outOf": 5, "weight": 5 },
+			{ "name": "In-class Assignment 2", "received": 0, "outOf": 5, "weight": 5 },
+			{ "name": "In-class Assignment 3", "received": 0, "outOf": 5, "weight": 5 },
+			{ "name": "In-class Assignment 4", "received": 0, "outOf": 5, "weight": 5 },
+			{ "name": "Participation", "received": 0, "outOf": 5, "weight": 5 },
+			{ "name": "Presentation", "received": 0, "outOf": 10, "weight": 10 },
+			{ "name": "Written Report", "received": 0, "outOf": 15, "weight": 15 }
+		],
+		"catalog": {
+			"A": 94,
+			"A-": 90,
+			"B+": 87,
+			"B": 83,
+			"B-": 80,
+			"C+": 77,
+			"C": 73,
+			"C-": 70,
+			"D+": 67,
+			"D": 60,
+			"F": 0
+		}
+	},
 	"CTIS222": {
 		"assessments": [
 			{ "name": "Quiz 1", "received": 0, "outOf": 100, "weight": 10 },
@@ -67,11 +134,10 @@
 	},
 	"CTIS264": {
 		"assessments": [
-			{ "name": "Midterm 1", "received": 0, "outOf": 100, "weight": 20 },
-			{ "name": "Midterm 2", "received": 0, "outOf": 100, "weight": 20 },
-			{ "name": "Quiz 1", "received": 0, "outOf": 100, "weight": 10 },
+			{ "name": "Midterm", "received": 0, "outOf": 100, "weight": 25 },
+			{ "name": "Lab Quiz", "received": 0, "outOf": 100, "weight": 15 },
 			{ "name": "Lab Exam", "received": 0, "outOf": 100, "weight": 25 },
-			{ "name": "Final", "received": 0, "outOf": 100, "weight": 25 }
+			{ "name": "Final", "received": 0, "outOf": 100, "weight": 35 }
 		],
 		"catalog": {
 			"A": 90,
