@@ -7,7 +7,7 @@ export interface Assessment {
 	weight: number;
 }
 
-export type LessonCatalog = Record<string, number> | undefined; // Record<keyof typeof letterGrades, number> but it doesn't work properly, hmm
+export type LessonCatalog = Record<string, number> | null; // Record<keyof typeof letterGrades, number> but it doesn't work properly, hmm
 
 export interface LessonDetails {
 	assessments: Assessment[];

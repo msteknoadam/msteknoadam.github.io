@@ -10,7 +10,8 @@
 			},
 			{ "name": "Midterm Exam (Take home)", "received": 0, "outOf": 20, "weight": 20 },
 			{ "name": "Final Exam", "received": 0, "outOf": 100, "weight": 30 }
-		]
+		],
+		"catalog": null
 	},
 	"HCIV102": {
 		"assessments": [
@@ -89,9 +90,25 @@
 			"F": 0
 		}
 	},
+	"CTIS365": {
+		"assessments": [
+			{ "name": "In-class Participation", "received": 0, "outOf": 3, "weight": 3 },
+			{ "name": "In-lab Participation", "received": 0, "outOf": 3, "weight": 3 },
+			{ "name": "Homework 1", "received": 0, "outOf": 3, "weight": 3 },
+			{ "name": "Homework 2", "received": 0, "outOf": 3, "weight": 3 },
+			{ "name": "Lab Quiz 1", "received": 0, "outOf": 4, "weight": 4 },
+			{ "name": "Lab Quiz 2", "received": 0, "outOf": 4, "weight": 4 },
+			{ "name": "Lab Project", "received": 0, "outOf": 5, "weight": 5 },
+			{ "name": "Lab Exam", "received": 0, "outOf": 10, "weight": 10 },
+			{ "name": "Midterm", "received": 0, "outOf": 100, "weight": 25 },
+			{ "name": "Term Project", "received": 0, "outOf": 10, "weight": 10 },
+			{ "name": "Final", "received": 0, "outOf": 100, "weight": 30 }
+		],
+		"catalog": null
+	},
 	"CTIS359": {
 		"assessments": [
-			{ "name": "Quiz ", "received": 0, "outOf": 100, "weight": 20 },
+			{ "name": "Quiz", "received": 0, "outOf": 100, "weight": 20 },
 			{ "name": "Midterm", "received": 0, "outOf": 100, "weight": 35 },
 			{ "name": "Final", "received": 0, "outOf": 100, "weight": 40 },
 			{ "name": "Assignment", "received": 0, "outOf": 100, "weight": 5 }
